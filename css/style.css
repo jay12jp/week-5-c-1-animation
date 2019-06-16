@@ -9,3 +9,57 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.container {
+  padding: 50px;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+}
+.circle.violet {
+  background-color: violet;
+  border-radius: 50%;
+  /* animation: violet-circle 4s ease-in-out infinite; */
+}
+/* @keyframes violet-circle {
+ 25% {
+  transform: translate(200px);
+  }
+  50% {
+   transform: translate(200px);
+   }
+} */
+.circle.indigo {
+  background-color: indigo;
+  border-radius: 50%;
+}
+.circle.blue {
+  background-color: blue;
+  border-radius: 50%;
+}
+.circle.green {
+  background-color: green;
+  border-radius: 50%;
+}
+.circle.yellow {
+  background-color: yellow;
+  border-radius: 50%;
+}
+.circle.orange {
+  background-color: orange;
+  border-radius: 50%;
+}
+.circle.red {
+  background-color: red;
+  border-radius: 50%;
+}
