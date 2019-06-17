@@ -22,14 +22,18 @@ html {
   padding: 50px;
 }
 
+.container-1 {
+  padding: 50px;
+}
+
 .circle {
   width: 180px;
   height: 180px;
 }
 .circle.violet {
   background-color: violet;
-  border-radius: 50%;
-  /* animation: violet-circle 4s ease-in-out infinite; */
+  /* border-radius: 50%;
+  animation: violet-circle 4s ease-in-out infinite; */
 }
 /* @keyframes violet-circle {
  25% {
@@ -41,25 +45,175 @@ html {
 } */
 .circle.indigo {
   background-color: indigo;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .circle.blue {
   background-color: blue;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .circle.green {
   background-color: green;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .circle.yellow {
   background-color: yellow;
-  border-radius: 50%;
 }
 .circle.orange {
   background-color: orange;
-  border-radius: 50%;
 }
 .circle.red {
   background-color: red;
+  /* border-radius: 50%; */
+
+}
+
+.circle.big {
+  width: 400px;
+  height: 400px;
+  /* border-radius: 50%; */
+}
+
+.circle.spin {
+  transform: rotate(30deg);
+  /* border-radius: 50%; */
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotateZ(0);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
+
+.container {
+	animation: spin 2s linear;
+}
+
+/* BOX */
+
+.box {
+  width: 180px;
+  height: 180px;
+}
+
+.box.violet {
+  background-color: violet;
+  /* border-radius: 50%; */
+}
+
+.box.indigo {
+  background-color: indigo;
+  /* border-radius: 50%; */
+}
+.box.blue {
+  background-color: blue;
+  /* border-radius: 50%; */
+}
+.box.green {
+  background-color: green;
+  /* border-radius: 50%; */
+}
+.box.yellow {
+  background-color: yellow;
+}
+.box.orange {
+  background-color: orange;
+}
+.box.red {
+  background-color: red;
+  /* border-radius: 50%; */
+
+}
+
+.box.big {
+  width: 400px;
+  height: 400px;
+  /* border-radius: 50%; */
+}
+
+.box.spin {
+  transform: rotate(30deg);
+  /* border-radius: 50%; */
+}
+/* Box to circle and Circle to box */
+.boxtocircle {
+  width: 180px;
+  height: 180px;
+}
+
+.boxtocircle.violet {
+  background-color: violet;
+  /* border-radius: 50%; */
+}
+
+.boxtocircle.indigo {
+  background-color: indigo;
+  /* border-radius: 50%; */
+}
+.boxtocircle.blue {
+  background-color: blue;
+  /* border-radius: 50%; */
+}
+.boxtocircle.green {
+  background-color: green;
+  /* border-radius: 50%; */
+}
+.boxtocircle.yellow {
+  background-color: yellow;
+}
+.boxtocircle.orange {
+  background-color: orange;
+}
+.boxtocircle.red {
+  background-color: red;
+  /* border-radius: 50%; */
+}
+.boxtocircle.change-shape {
   border-radius: 50%;
+}
+
+.circletobox {
+  width: 180px;
+  height: 180px;
+}
+
+.circletobox.violet {
+  background-color: violet;
+  border-radius: 50%;
+}
+
+.circletobox.indigo {
+  background-color: indigo;
+  border-radius: 50%;
+}
+.circletobox.blue {
+  background-color: blue;
+  border-radius: 50%;
+}
+.circletobox.green {
+  background-color: green;
+  border-radius: 50%;
+}
+.circletobox.yellow {
+  background-color: yellow;
+  border-radius: 50%;
+}
+.circletobox.orange {
+  background-color: orange;
+  border-radius: 50%;
+}
+.circletobox.red {
+  background-color: red;
+  border-radius: 50%;
+}
+.circletobox.change-shape {
+  border-radius: 0%;
+  /* width: 100px;
+  height: 100px; */
 }
